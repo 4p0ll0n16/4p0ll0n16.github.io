@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./icon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apollonia Inn&Bar</title>
+    <link rel="stylesheet" href="apollonia.css">
+    
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body background="./rose_curtain_dark.jpg" style="float:center;background-size: 1900px 1080px; background-repeat: no-repeat;">
+<div class="banner">
+    <header>
+	<div id="cooper">
+ 	<img src="./cooperlogo.png" alt="cooper union org" style="width:400px;height:60px;margin:10px 0px 10px 100px;">
+               <img src="./icon_bordered2.png" alt="apol logo" style="float:right;width:80px;height:80px;margin:3px 100px 0px 0px;">
+               </div>
+	<center><img src="./FINAL_white.png" alt="Apollonia Logo" style="width:750px;height:350px;margin:120px 0px 200px 0px;"></center>
+    </header>
+
+
+<div class="board">    
+<h2 style="color:#ffffff;margin: 20px 0px 10px 10px; font-size: 30px; font-family: bodoni mt;">Announcements &ensp;<span style="color:#ffffff;font-size:14px;font-family:sans-serif;font-weight:normal;">The week of 08/15/2022</span></h2>
+    <ul id="announcements">
+	<li style="color: #ee2023;  font-size: 15px; margin: 0px 0px 10px 0px;"><b>(UPDATED)</b>Our web is CURRENTLY <b>IN DEVELOPMENT</b> <br> It is <b>OPEN TEMPORARILY 8/7 09:00 ~ 8/22 00:00 EST</b> and will <b>SHUT DOWN</b> afterwards until our official launch on 8/26 09:00 EST</b></li>
+	<li><b>Show for 2022~2023</b>: &emsp;Musical <i>Stone The Stone</i>&emsp; (subject to change)</i>
+    	<li><b>License Status</b>&emsp;&emsp;&ensp;: &emsp;Requested  &emsp;(as of 08/08/2022)		&emsp;&emsp;-pinot</li>
+	<li><b>Club Reg Status </b>&emsp;&ensp;:&emsp; APPROVED!  &emsp;&emsp; (as of 08/08/2022)		&emsp;&emsp;-sonny</li>
+   	<li><b>Next Meeting  </b>&emsp;&emsp;&emsp;: &emsp;Fall Festival&emsp;(8/27 Sat 1PM Cooper Park, NOT mandatory)</li>
+    </ul>
+<p style="color:#5b5b5b; margin: 2px 0px 20px 0px;">&emsp;<i>Last revised:&ensp;pinot</i></p>
+</div>
+
+<!----------------------------------------------------------------------------------------------->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Requests</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Timeline</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Apollonians</button>
+<button class="tablinks" onclick="openCity(event, 'inventions')" >Our Inventions</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>Requests</h3>
+  <p>Any sort of generic requests to/from Santa Lucia/Committees</p>
+
+<div class="request">
+	<p>
+	<b>Task Name:</b> Storyboard Animation Clear Ups
+	<br><b>Assigner:</b> hemingway &emsp;<b>Assignee:</b> K. Ryu
+	</p>
+</div>
+
+<div class="request">
+	<p>
+	<b>Task Name:</b> Title Animation 3D conversion
+	<br><b>Assigner:</b> hemingway & geneva &emsp;<b>Assignee:</b> K. Ryu
+	</p>
+</div>
+
+<div class="request">
+	<p>
+	<b>Task Name:</b> Stage Spec AutoCADing
+	<br><b>Assigner:</b> steve &emsp;<b>Assignee:</b> brandy
+	</p>
+</div>
+
+<p><span style="color:#ee2023;font-size:10px;"><br>make comments available<br><br>-pinot</span></p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Timeline</h3>
+  <p><span style="color:#ee2023;font-size:10px;">**(weekly timeline calendar goes here)**<br></span>See More ><span style="color:#ee2023;font-size:10px;">  **(<-this should direct to our full timeline)**</span></p> 
+</div>
+
+<div id="Tokyo" class="tabcontent" >
+  <h3>Organization Chart - Fall 2022</h3>
+<center><img src="./orgchart3.png" alt="org chart" style="width: 400px; height:400px;"></center>
+  <p><span style="color:#ee2023;font-size:10px;">**(조직도 graphic goes here. It should also include our currently running assignments, the assigners-->assignees, & links to each dept & member profile)**</span>
+</div>
+
+<div id="inventions" class="tabcontent">
+  <h3>Apollonian Inventions</h3>
+  <p><span style="color:#ee2023;font-size:10px;">**(few of our recent projects go here)**</span>
+<br>See More ><span style="color:#ee2023;font-size:10px;">  **(<-directs to full listing)**</span></p> 
+</div>
+<!----------------------------------------------------------------------------------------------->
+
+</div> 
+<!----------------------------class "banner" ends------------------------------------------------>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<!------------------------------do displays for now but should be fetching from database------------------------------------------------>
+<div class="recent">
+
+<h2 style="font-size:20px;font-family:bodoni mt;">Recent Works</h2>
+
+<center><div class="works">
+
+<video height="252" width="252" controls autoplay loop autoplay muted>
+  <source  src="sts_promo_draft1.mp4" type="video/mp4">
+</video>
+
+<video height="252" width="448" controls>
+	<source src="storyboard_0_000.mp4" type="video/mp4">
+</video>
+
+<iframe width="448" height="252" src="https://www.youtube.com/embed/XLyyfnpP7aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div></center>
+</div>
+
+
+<!----------------------------------------------------------------------------------------------->
+
+    <!-- sidebar 1 -->
+    <aside id="sidebar">
+
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Integrated</h2>
+        <ul>
+	<li><a href="integrated.html">Integrated Directing Proposal</a></li>
+        </ul>
+<hr>
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Scenario</h2>
+        <ul>
+<!---            <li><button onclick="openCity(event, 'translation')">Translation</a></li> ---->
+	<li><a href="scenario_translation.html">Translation</a></li>
+            <li><a href="original_script.html" >Script (Original)</a></li>
+            <li><a href="adaptation.html">Script (Apollonian)</a></li>
+        </ul>
+
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Directing Proposals</h2>
+        <ul>
+	<li><a href="dir_scnene.html">Overview & Storyboard</a></li>
+	<li><a href="dir_sb.html">Animated Storyboard</a></li>
+            <li><a href="dir_number.html">Scene Drafts</a></li>
+            <li><a href="dir_scnene.html">Choreography</a></li>
+        </ul>
+
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Designs</h2>
+        <ul>
+            <li><a href="stage_design.html">Stage</a></li>
+            <li><a href="props.html">Props</a></li>
+            <li><a href="limelight.html">Lighting</a></li>
+            <li><a href="costume.html">Costumes</a></li>
+            <li><a href="hair_makeup.html">Hair & Makeup</a></li>
+        </ul>
+        
+        <h2 class="category"><img src="./icon_back.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Console Engineering</h2>
+        <ul>
+            <li><a href="stage_engineering.html">Stage</a></li>
+            <li><a href="prop_engineering.html">Props</a></li>
+            <li><a href="limelight.html">Lighting</a></li>
+            <li><a href="sound.html">Sound</a></li>
+            <li><a href="auto.html">Automation Plans</a></il>
+        </ul>
+<hr>
+        <h2 class="category"><img src="./icon_back.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Santa Lucia</h2>
+        <ul>
+	<li><a href="schedule.html">Schedule 2022-2023</a></li>
+            <li><a href="promo.html">Promo Media</a></li>
+            <li><a href="accounting.html">Transaction & Reimbursement</a></li>
+            <li><a href="budget.html">Budget</a></li>
+            <li><a href="cast.html">Casting</a></li>
+
+        </ul>
+<hr>
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Music Production</h2>
+        <ul>
+            <li><a href="scores.html">Scores</a></li>
+            <li><a href="inst.html">Instrumental Covers</a></li>
+            <li><a href="midi.html">MIDI Covers</a></li>
+            <li><a href="vocal.html">Vocal Covers</a></li>
+        </ul>
+
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Complete File Archive</h2>
+        <ul>
+              
+	<li><a href="script.html">Complete Script</a></li>
+            <li><a href="recording.html">Complete Instrumentals</a></li>
+ 	<li><a href="scores.html">Complete Scores</a></li>
+	<li><a href="ref.html">Reference Media</a></li>
+	<li><a href="stage_spec.html">Stage Spec</a></li>
+	<li><a href="animation.html">Screen Animations</a></li>
+         	<li><a href="code.html">Codes</a></li>
+            <li><a href="receipt.html">Shop List</a></li>
+        </ul>
+
+    </aside>
+
+<!---------------------------------------------sidebar content-------------------------------------------------->
+<div id="translation" class="content">
+  </div>
+
+<!------------------------------------------------------------------------------------------------>
+  <main id="contentpage">
+        <header>
+            <h2 style="font-family:bodoni mt;">
+                Welcome to Apollonia!
+            </h2>
+        </header>
+        <main>
+            <!-- filler words -->
+            <p>
+	<i>Apollonia Inn&Bar</i> is Cooper Union's one and only organization for theater engineering and performance. 
+	Apollonians engineer performing arts and introduce their inventions to the community through onstage vaudeville 
+	performances. The purpose of this organization is to achieve interdisciplinary success across all 
+	departments at The Cooper Union. 
+	<br>We perform every spring semester at the <i>Rose Auditorium</i> located on LL1 of 40 Cooper Square. All tickets are available after
+	December 1st, 2022. For more information, contact contact@apollonia.productions.
+	<br>
+	<br>
+	<br>
+	<br><span style="font-size:40px;color:#ee2023;font-family:bodoni mt;font-weight:bold;">WE ARE NOW RECRUITING!!!!! 
+	<br>JOIN US at the FALL FESTIVAL!!<br>8/27 Sat 1-4PM @ Cooper Park</span>
+	<br><span style="font-size:10px;">(Jk might not happen i just can't.. be bothered..)</span>
+	<br>
+	<br>
+		    <br><b>*Our Next Show:</b> Musical<span style="font-size:30px;font-weight:bold;"> Stone The Stone</span>
+	<br><span style="font-size:12px;color:#b5b5b5;">(subject to change)</span>
+	<br>
+		    <br><b>*Runtime: 70 min</b>
+	<br>
+		    <br><b>*Synopsis:</b> 
+<br><br><span style="font-family:bodoni mt;font-size:20px"><i>"Why did Michael the Angel smile?"</i></span> 
+<br><span style="font-size:16px">On Easter Eve of 1973, KGB agents Simon and Kosmo finally accomplish their mission to steal the Philosopher's Stone of Isaac Newton in Baltimore Inner Harbor.
+The CIA undercover agent Michael is after them, but sadly, he is running out of time--the Soviets are leaving on the next day. Kosmo is ready to leave.</span>
+		    <span style="font-family:times new roman;font-size:15px"><i> Simon is not.</i></span>
+<br><span style="font-family:bodoni mt;font-size:20px">Gold or Stone? &ensp; Stone--<i>the</i> stone!</span> <span style="font-size:10px;">(<--lol u finished the whole story like???)</span>
+		    <br><br><b>*Cast:</b> Simon/Kosmo/Michael/Young Simon/Young Kosmo
+	<br>
+		    <br><b>*List of Numbers:</b>
+	<br>00. Sonrisa de Angel
+	<br>01. Twist
+	<br>02. Amorosamente
+	<br>03. The Walk
+	<br>04. In Life
+	<br>05. Infection
+	<br>06. 'Till Your First Poem
+	<br>07. Run 'N Rock 'N Roll
+	<br>08. Simon Says
+	<br>09. The Call
+	<br>10. Have I Ever
+	<br>11. That Sounds Like Me
+	<br>12. Simon Says rep.
+	<br>13. Highlight & Let's Dance
+	<br>14. Finale
+            </p>
+
+        </main>
+            
+    </main>
+
+<!----------------------------------------------------------------------------------------------->
+    <hr>
+<!----------------------------------------------------------------------------------------------->
+    <footer>
+        <ul>
+	    <li><a class="footer" href="aboutus.html">About Us</a></li>
+	    <li><a class="footer" href="cooper.html">About Cooper</a></li>
+	    <li><a class="footer" href="contact.html">Contact</a></li>
+            
+        </ul>
+    </footer>
+</body>
