@@ -14,11 +14,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
   </head>
+  
+  <header>
+  	<div id="cooper">
+ 	   <a href="https://jac.cooper.edu"><img src="./cooperlogo.png" alt="cooper union org" style="width:400px;height:60px;margin:10px 0px 10px 100px;"></a>
+     <a href="index.html"><img src="./icon_bordered2.png" alt="apol logo" style="float:right;width:80px;height:80px;margin:3px 100px 0px 0px;"></a>
+    </div>
+  </header>
 
   <body>
-    <h1>Non-Performer Application</h1>
-    
+    <center><h1>Non-Performer Application</h1></center>
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname">
+      
+      <label for="cemail">Cooper Email:</label><br>
+      <input type="text" id="cemail" name="cemail">
+      
+      <p>Major:</p>
+      <input type="radio" id="m_art" name="major" value="Art">
+      <label for="m_art">Art</label><br>
+      <input type="radio" id="m_arch" name="major" value="Architecture">
+      <label for="m_arch">Architecture</label><br>
+      <input type="radio" id="che" name="major" value="Chemical Engineering">
+      <label for="che">Chemical Engineering</label>
+      <input type="radio" id="ce" name="major" value="Civil Engineering">
+      <label for="ce">Civil Engineering</label>
+      <input type="radio" id="ee" name="major" value="Electrical Engineering">
+      <label for="ee">Electrical Engineering</label>
+      <input type="radio" id="bse" name="major" value="General Engineering">
+      <label for="bse">General Engineering</label>
+      <input type="radio" id="me" name="major" value="Mechanical Engineering">
+      <label for="me">Mechanical Engineering</label>
+    </form>
   </body>
 </html>
