@@ -241,7 +241,7 @@ font-size: 14px;
     font-family: '나눔고딕';
 }
 
-.subutn {
+.subutn button {
   margin: 20px 50px 20px 50px; 
   background-color: #deadce; /* Green */
   border: #deadee;
