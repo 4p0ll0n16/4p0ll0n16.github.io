@@ -242,7 +242,8 @@ font-size: 14px;
 }
 
 .subutn button {
-  margin: 0px 50px 20px 50px; 
+  margin: 0px 50px 20px 0px; 
+  width: 80px;
   background-color: #deadce; /* Green */
   border: #deadee;
   border-radius: 0.5em;
@@ -265,6 +266,7 @@ font-size: 14px;
   background-color: #deadce;
   color: #000000;
 }
+
 /*******************************************************************************/
 /* remove bullet points */
 footer ul {
