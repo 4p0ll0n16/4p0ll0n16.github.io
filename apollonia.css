@@ -243,11 +243,11 @@ font-size: 14px;
 
 .subutn button {
   margin: 0px 50px 20px 0px; 
-  width: 80px;
+  width: 250px;
   background-color: #deadce; /* Green */
-  border: 2px solid #deadee;
+  border: 3px solid #000000;
   border-radius: 0.5em;
-  color: white;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -257,8 +257,8 @@ font-size: 14px;
 
 /* Change background color of buttons on hover */
 .subutn button:hover {
-  background-color: #ddd;
- color:#000;
+  background-color: #5b5b5b;
+ color:#ffffff;
 }
 
 /* Create an active/current tablink class */
