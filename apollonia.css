@@ -138,6 +138,23 @@ padding:5px 20px;
 	font-size: 10px;
 }
 
+#task_name{
+  width: 350px;
+}
+
+#assigner, #assignee {
+  width: 200px;
+  margin-right: 5px;
+}
+
+#requests {
+  /* list-style-type: none; */
+}
+
+#requests li {
+  margin-bottom: 10px;
+  
+}
 /*************************************RECENT STUFF******************************/
 .recent {
 	text-align:left;
