@@ -152,7 +152,7 @@ padding:5px 20px;
 }
 
 #requests li {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   
 }
 /*************************************RECENT STUFF******************************/
@@ -183,7 +183,7 @@ padding:5px 20px;
  
 /*************************************SIDEBAR******************************/
 #sidebar{
-    width: 210px;
+    width: 300px;
     margin: 50px 0px 50px 100px;
     padding: 1.2rem 1.5rem;
     border: 1px solid rgb(216, 216, 216);
