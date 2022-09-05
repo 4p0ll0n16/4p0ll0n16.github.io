@@ -261,10 +261,10 @@ font-size: 14px;
 .subutn button {
   margin: 0px 50px 20px 0px; 
   width: 250px;
-  background-color: #deadce; /* Green */
-  border: 3px solid #000000;
+  background-color: #FE4EE8; /* pink */
+  border: 1px solid #5b5b5b;
   border-radius: 0.5em;
-  color: black;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
