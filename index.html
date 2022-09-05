@@ -23,7 +23,7 @@
 </head>
 
 <!--background-size: 1900px 1080px-->
-<body background="./rose_curtain_dark_bw.jpg" style="float:center; background-size: 750px 2080px; background-repeat: no-repeat;">
+<body background="./rose_curtain_dark_bw.jpg" style="float:center; background-size: 740px 2080px; background-repeat: no-repeat;">
 <div class="banner">
     <header>
 	<div id="cooper">
@@ -50,43 +50,44 @@
   <button class="tablinks" onclick="openCity(event, 'London')">Requests</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Timeline</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Apollonians</button>
-<button class="tablinks" onclick="openCity(event, 'inventions')" >Our Inventions</button>
+  <button class="tablinks" onclick="openCity(event, 'inventions')" >Our Inventions</button>
 </div>
 
 <div id="London" class="tabcontent">
   <h3>Requests</h3>
-  <p>Any sort of generic requests to/from Santa Lucia/Committees</p>
+	<p>Any sort of generic requests to/from Santa Lucia/Committees</p>
 
-<div class="request">
+	<div class="request">
 	<p class="mb-0">
 	<b>Task Name:</b> Stage Spec AutoCADing
-	<br><b>Assigner:</b> steve &emsp;<b>Assignee:</b> brandy
-	</p>
-<!-- Request Form -->
-<form action="/requested" id="request_form" class="my-4">
-    <h4>Enter a request:</h4>
-    <div class="task mb-3">
-        <label for="task_name" class="form-label">Task Name</label>
-        <input type="text" class="form-control" name="task_name" id="task_name">    
-    </div>
-    <div class="mb-3 mr-3 d-inline-block">
-        <label for="assigner" class="form-label">Assigner</label>
-        <input type="text" class="form-control" name="assigner" id="assigner">
-    </div>
-    <div class="mb-3 d-inline-block">
-        <label for="assignee" class="form-label">Assignee</label>
-        <input type="text" class="form-control" name="assignee" id="assignee">
-    </div>
-    <button class="btn btn-light d-block">Submit</button>
-</form>
+	<br><b>Assigner:</b> steve &emsp;<b>Assignee:</b> brandy</p>
+	</div>
 
-<!-- Submitted Requests -->
-<div>
-    <h4>Submitted Requests</h4>
-    <ul id="requests">
-        <!-- list of requests -->
-    </ul>
-</div>
+	<!-- Request Form -->
+	<form action="/requested" id="request_form" class="my-4">
+    	<h4>Enter a request:</h4>
+    	<div class="task mb-3">
+        	<label for="task_name" class="form-label">Task Name</label>
+        	<input type="text" class="form-control" name="task_name" id="task_name">    
+    	</div>
+    	<div class="mb-3 mr-3 d-inline-block">
+        	<label for="assigner" class="form-label">Assigner</label>
+        	<input type="text" class="form-control" name="assigner" id="assigner">
+    	</div>
+    	<div class="mb-3 d-inline-block">
+        	<label for="assignee" class="form-label">Assignee</label>
+        	<input type="text" class="form-control" name="assignee" id="assignee">
+    	</div>
+    	<button class="btn btn-light d-block">Submit</button>
+	</form>
+
+	<!-- Submitted Requests -->
+	<div>
+    		<h4>Submitted Requests</h4>
+    		<ul id="requests">
+        	<!-- list of requests -->
+    		</ul>
+	</div>
 </div>
 	
 <div id="Paris" class="tabcontent">
