@@ -261,7 +261,7 @@ font-size: 14px;
 .subutn button {
   margin: 0px 50px 20px 0px; 
   width: 250px;
-  background-color: #FE4EE8; /* pink */
+  background-color: #EE2CB7; /* pink */
   border: 1px solid #5b5b5b;
   border-radius: 0.5em;
   color: white;
@@ -275,7 +275,7 @@ font-size: 14px;
 /* Change background color of buttons on hover */
 .subutn button:hover {
   background-color: #5b5b5b;
- color:#ffffff;
+ color:#000000;
 }
 
 /* Create an active/current tablink class */
